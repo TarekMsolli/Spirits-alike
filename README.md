@@ -10,7 +10,7 @@ Controls:
     [Down]: [Down_arrow] [S_Key]<br />
     [Jump]: [Space_bar]<br />
     [Action]: [E_Key]<br />
-    %%
+    %%<br />
     [Right]: Move right on land.<br />
     [Left]: Move left on land.<br />
     [Up]: Previous spirit.<br />
@@ -22,7 +22,7 @@ Controls:
     [Jump+Left]: Jump to the left.<br />
     [Hold-Jump+Left]: Charged jump to the left.<br />
     [Action]: Use ability or interact with characters.<br />
-    %%
+    %%<br />
     [Clone-lifespan]: 5.<br />
     [Fire-charges]: 2.<br />
     [Fire-charges-recharge]: 5.<br />
@@ -44,3 +44,4 @@ Controls:
 [Necro-spirit]: grants [Hero] the ability to grasp the side of a wall using the [Action] button for [Grasp-duration] seconds and then lose grip of the wall, if [Hero] uses the [Jump] button before the grasp runs out [Hero] instead jumps upwards and torwards the direction opposite to the wall.<br />
 
 # Plot
+[Hero] wakes up in the bottom of a dark pit and with the help of the resident spirit [Hero] climbs up the pit in hope of getting out and finding out more the sircumstances that led for [Hero] to fall down the pit in the first place.
