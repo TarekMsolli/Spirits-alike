@@ -1,8 +1,13 @@
 # Spirits alike
- An aspiring videogame project
+An aspiring videogame project.
 
 
-# 2D climbing platform
+ # Style
+ [Play-style]: 2D climbing platform - No death - No checkpoints.<br />
+ [Art-style]: Pixel art.<br />
+
+
+# Settings
 Controls:
     [Right]: [Right-arrow] [D_Key]<br />
     [Left]: [Left-arrow] [A_Key]<br />
@@ -32,6 +37,8 @@ Controls:
 
 # Characters
 [Hero]: is the main character - has the ability to borrow a spirit's power to help [Hero] reach [Hero]'s goal.<br />
+
+[Enemy-one]: moves right to left on a platform and applies a knockback to [Hero] on contact.
 
 [Fire-spirit]: grants [Hero] a fire spell that kills enemies using [Action], [Hero] can only posess [Fire-charges] fire charges at a time with each one recharging every [Fire-charge-recharge] seconds.<br />
 
