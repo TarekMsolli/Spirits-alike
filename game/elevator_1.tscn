@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://ddo87nbxses5s"]
+
+[ext_resource type="Texture2D" uid="uid://dpm5523m8tg0l" path="res://tiles_packed.png" id="1_0fls4"]
+[ext_resource type="Script" path="res://elevator.gd" id="1_7e6of"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yeuhk"]
+size = Vector2(16, 16)
+
+[node name="elevator1" type="StaticBody2D"]
+script = ExtResource("1_7e6of")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.888889, 0.888889)
+texture = ExtResource("1_0fls4")
+region_enabled = true
+region_rect = Rect2(252, 0, 18, 18)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_yeuhk")

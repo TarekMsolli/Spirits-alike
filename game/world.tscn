@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://ct0yr5xvsaeq"]
+[gd_scene load_steps=10 format=3 uid="uid://ct0yr5xvsaeq"]
 
 [ext_resource type="PackedScene" uid="uid://2xb6syy10iai" path="res://block.tscn" id="1_o4sfo"]
 [ext_resource type="PackedScene" uid="uid://be644gyd48tm" path="res://block_2.tscn" id="2_gd5qd"]
@@ -6,6 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://dwdm6yvl00kvr" path="res://block_3.tscn" id="3_fre15"]
 [ext_resource type="PackedScene" uid="uid://camey02382mga" path="res://block_4.tscn" id="4_mka1w"]
 [ext_resource type="PackedScene" uid="uid://dhg36uqsis3he" path="res://boundry_wall.tscn" id="6_ektv5"]
+[ext_resource type="PackedScene" uid="uid://br1xy1i86ru74" path="res://elevator_2.tscn" id="7_pcerk"]
+[ext_resource type="PackedScene" uid="uid://ddo87nbxses5s" path="res://elevator_1.tscn" id="8_0eyx1"]
 
 [sub_resource type="GDScript" id="GDScript_5hn1p"]
 script/source = "extends Node2D
@@ -36,6 +38,15 @@ position = Vector2(135, 288)
 [node name="block5" parent="." instance=ExtResource("3_fre15")]
 position = Vector2(117, 288)
 
+[node name="block29" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(154, 128)
+
+[node name="block30" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(172, 128)
+
+[node name="block41" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(190, 128)
+
 [node name="Block" parent="." instance=ExtResource("1_o4sfo")]
 position = Vector2(135, 252)
 
@@ -51,17 +62,17 @@ position = Vector2(261, 162)
 [node name="block28" parent="." instance=ExtResource("4_mka1w")]
 position = Vector2(279, 162)
 
-[node name="block29" parent="." instance=ExtResource("2_gd5qd")]
-position = Vector2(171, 126)
-
-[node name="block30" parent="." instance=ExtResource("4_mka1w")]
-position = Vector2(189, 126)
-
 [node name="block31" parent="." instance=ExtResource("2_gd5qd")]
 position = Vector2(99, 90)
 
+[node name="block39" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(136, 128)
+
 [node name="block32" parent="." instance=ExtResource("4_mka1w")]
 position = Vector2(117, 90)
+
+[node name="block40" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(208, 128)
 
 [node name="block33" parent="." instance=ExtResource("2_gd5qd")]
 position = Vector2(36, 45)
@@ -80,6 +91,12 @@ position = Vector2(216, -27)
 
 [node name="block38" parent="." instance=ExtResource("4_mka1w")]
 position = Vector2(234, -27)
+
+[node name="block42" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(216, -518)
+
+[node name="block43" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(234, -518)
 
 [node name="block8" parent="." instance=ExtResource("2_gd5qd")]
 position = Vector2(9, 324)
@@ -182,3 +199,9 @@ position = Vector2(189, -105)
 limit_left = 0
 limit_right = 342
 position_smoothing_enabled = true
+
+[node name="elevator2" parent="." instance=ExtResource("7_pcerk")]
+position = Vector2(328, 304)
+
+[node name="elevator1" parent="." instance=ExtResource("8_0eyx1")]
+position = Vector2(312, 304)
