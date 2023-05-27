@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://ck1raj1kyo0jf"]
+[gd_scene load_steps=7 format=3 uid="uid://ck1raj1kyo0jf"]
 
 [ext_resource type="Texture2D" uid="uid://tgjg7i16unsl" path="res://characters_packed.png" id="1_td1fe"]
 [ext_resource type="Script" path="res://hero.gd" id="1_tsab5"]
@@ -7,11 +7,18 @@
 atlas = ExtResource("1_td1fe")
 region = Rect2(0, 0, 24, 24)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_tsovd"]
+atlas = ExtResource("1_td1fe")
+region = Rect2(24, 0, 24, 24)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_47yht"]
 animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_g21di")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tsovd")
 }],
 "loop": true,
 "name": &"Idle",
@@ -27,6 +34,7 @@ script = ExtResource("1_tsab5")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_47yht")
 animation = &"Idle"
+frame_progress = 0.975068
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

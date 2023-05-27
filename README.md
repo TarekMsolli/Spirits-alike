@@ -15,7 +15,7 @@ Controls:
     [Down]: [Down_arrow] [S_Key]<br />
     [Jump]: [Space_bar]<br />
     [Action]: [E_Key]<br />
-    %%<br />
+    ----+-----+++++++---------+---<br />
     [Right]: Move right on land.<br />
     [Left]: Move left on land.<br />
     [Up]: Previous spirit.<br />
@@ -27,7 +27,7 @@ Controls:
     [Jump+Left]: Jump to the left.<br />
     [Hold-Jump+Left]: Charged jump to the left.<br />
     [Action]: Use ability or interact with characters.<br />
-    %%<br />
+    ----+-----+++++++---------+---<br />
     [Clone-lifespan]: 5.<br />
     [Fire-charges]: 2.<br />
     [Fire-charges-recharge]: 5.<br />
