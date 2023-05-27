@@ -1,0 +1,184 @@
+[gd_scene load_steps=8 format=3 uid="uid://ct0yr5xvsaeq"]
+
+[ext_resource type="PackedScene" uid="uid://2xb6syy10iai" path="res://block.tscn" id="1_o4sfo"]
+[ext_resource type="PackedScene" uid="uid://be644gyd48tm" path="res://block_2.tscn" id="2_gd5qd"]
+[ext_resource type="PackedScene" uid="uid://ck1raj1kyo0jf" path="res://hero.tscn" id="2_jbro6"]
+[ext_resource type="PackedScene" uid="uid://dwdm6yvl00kvr" path="res://block_3.tscn" id="3_fre15"]
+[ext_resource type="PackedScene" uid="uid://camey02382mga" path="res://block_4.tscn" id="4_mka1w"]
+[ext_resource type="PackedScene" uid="uid://dhg36uqsis3he" path="res://boundry_wall.tscn" id="6_ektv5"]
+
+[sub_resource type="GDScript" id="GDScript_5hn1p"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
+
+[node name="World" type="Node2D"]
+script = SubResource("GDScript_5hn1p")
+
+[node name="block2" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(81, 288)
+
+[node name="block3" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(99, 288)
+
+[node name="block4" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(135, 288)
+
+[node name="block5" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(117, 288)
+
+[node name="Block" parent="." instance=ExtResource("1_o4sfo")]
+position = Vector2(135, 252)
+
+[node name="block6" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(189, 207)
+
+[node name="block7" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(207, 207)
+
+[node name="block27" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(261, 162)
+
+[node name="block28" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(279, 162)
+
+[node name="block29" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(171, 126)
+
+[node name="block30" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(189, 126)
+
+[node name="block31" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(99, 90)
+
+[node name="block32" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(117, 90)
+
+[node name="block33" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(36, 45)
+
+[node name="block34" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(54, 45)
+
+[node name="block35" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(135, 9)
+
+[node name="block36" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(153, 9)
+
+[node name="block37" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(216, -27)
+
+[node name="block38" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(234, -27)
+
+[node name="block8" parent="." instance=ExtResource("2_gd5qd")]
+position = Vector2(9, 324)
+
+[node name="block9" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(27, 324)
+
+[node name="block10" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(45, 324)
+
+[node name="block11" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(63, 324)
+
+[node name="block12" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(81, 324)
+
+[node name="block13" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(99, 324)
+
+[node name="block14" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(117, 324)
+
+[node name="block15" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(135, 324)
+
+[node name="block16" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(153, 324)
+
+[node name="block17" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(171, 324)
+
+[node name="block18" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(189, 324)
+
+[node name="block19" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(207, 324)
+
+[node name="block20" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(225, 324)
+
+[node name="block21" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(243, 324)
+
+[node name="block22" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(261, 324)
+
+[node name="block23" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(279, 324)
+
+[node name="block24" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(297, 324)
+
+[node name="block25" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(315, 324)
+
+[node name="block26" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(333, 324)
+
+[node name="block50" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(9, -81)
+
+[node name="block51" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(27, -81)
+
+[node name="block52" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(45, -81)
+
+[node name="block53" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(63, -81)
+
+[node name="block54" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(81, -81)
+
+[node name="block55" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(99, -81)
+
+[node name="block56" parent="." instance=ExtResource("3_fre15")]
+position = Vector2(117, -81)
+
+[node name="block57" parent="." instance=ExtResource("4_mka1w")]
+position = Vector2(135, -81)
+
+[node name="boundry wall" parent="." instance=ExtResource("6_ektv5")]
+position = Vector2(-9, 0)
+
+[node name="boundry wall2" parent="." instance=ExtResource("6_ektv5")]
+position = Vector2(350, 0)
+
+[node name="boundry wall3" parent="." instance=ExtResource("6_ektv5")]
+position = Vector2(-9, -333)
+
+[node name="boundry wall4" parent="." instance=ExtResource("6_ektv5")]
+position = Vector2(350, -333)
+
+[node name="Hero" parent="." instance=ExtResource("2_jbro6")]
+position = Vector2(99, 267)
+
+[node name="Camera2D" type="Camera2D" parent="Hero"]
+position = Vector2(189, -105)
+limit_left = 0
+limit_right = 342
+position_smoothing_enabled = true
