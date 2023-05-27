@@ -46,9 +46,14 @@ Controls:
 
 [Wind-spirit]: grants [Hero] a second jump using [Jump] a second time.<br />
 
-[Nature-spirit]: grants [Hero] the ability to create a clone, the clone lasts for [Clone-lifespan] seconds, if the clone leaves the viewport it despawns.<br />
+[Space-spirit]: grants [Hero] the ability to create a clone, the clone lasts for [Clone-lifespan] seconds, if the clone leaves the viewport it despawns.<br />
 
 [Necro-spirit]: grants [Hero] the ability to grasp the side of a wall using the [Action] button for [Grasp-duration] seconds and then lose grip of the wall, if [Hero] uses the [Jump] button before the grasp runs out [Hero] instead jumps upwards and torwards the direction opposite to the wall.<br />
 
 # Plot
 [Hero] wakes up in the bottom of a dark pit and with the help of the resident spirit [Hero] climbs up the pit in hope of getting out and finding out more the sircumstances that led for [Hero] to fall down the pit in the first place.
+
+[Space-spirit] is a magic augmented technology expert, he's married to [Time-spirit], they both got teleported to the pit after he tried to expiriment on her powers and is now waiting for her to get some matirials he need from higher up, after getting him some crystals he uses them to fix his machine, and finishes creating a magical cloning bracelet for [Hero] that will help in making the goal more obtainable.
+
+[Time-spirit] is a snow owl witch who's responsible for the flow of time, she's married to [Time-spirit], after teleporting to the pit she had to fly up in order to get some magic imbuded cristals that her husband needs to fix his machine, however during her journey she got tricked into getting trapped in a magical bone seal that won't allow her to get out unless she swapped places with someone else.
+
