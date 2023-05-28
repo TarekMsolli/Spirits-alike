@@ -1,10 +1,10 @@
 extends StaticBody2D
 
-@onready var travelDistance = 800
+@onready var travelDistance = 100
 @onready var intialHeight = position.y
 @onready var targetHeight = position.y - travelDistance
 @onready var up = true
-@onready var elevatorSpeed = 100
+@onready var elevatorSpeed = 10
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
